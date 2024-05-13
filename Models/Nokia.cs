@@ -10,7 +10,7 @@ namespace DesafioPOO.Models
         // TODO: Sobrescrever o método "InstalarAplicativo" feito
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Instalando a plicativo {nomeApp} no celular Nokia");
+            Console.WriteLine($"Instalando a plicativo {nomeApp} no celular {Nome}");
         }
     }
 }

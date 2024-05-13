@@ -8,7 +8,7 @@ namespace DesafioPOO.Models
 
     public override void InstalarAplicativo(string nomeApp)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"Instalando a plicativo {nomeApp} no celular {Nome}");
     }
 }
 }

@@ -14,3 +14,11 @@ Console.WriteLine($"Smartphone {iphone.Nome}");
 iphone.Ligar();
 iphone.InstalarAplicativo("Facebook");
 iphone.FinalizarChamada();
+
+Console.WriteLine(" ");
+
+Smartphone samsung = new Iphone(numero:"9 7777777",nome:"Samsung", modelo: "Modelo Galaxy S23", imei:"44444444",memoria: 256);
+Console.WriteLine($"Smartphone {samsung.Nome}");
+iphone.Ligar();
+iphone.InstalarAplicativo("Firefox");
+iphone.FinalizarChamada();
