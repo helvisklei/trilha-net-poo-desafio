@@ -17,8 +17,10 @@ iphone.FinalizarChamada();
 
 Console.WriteLine(" ");
 
-Smartphone samsung = new Iphone(numero:"9 7777777",nome:"Samsung", modelo: "Modelo Galaxy S23", imei:"44444444",memoria: 256);
+Smartphone samsung = new Samsung(numero:"9 77777777", nome:"Samsung",modelo:"Modelo Galaxy S23",imei:"333333332",memoria:256);
 Console.WriteLine($"Smartphone {samsung.Nome}");
-iphone.Ligar();
-iphone.InstalarAplicativo("Firefox");
-iphone.FinalizarChamada();
+samsung.Ligar();
+samsung.InstalarAplicativo("Firefox");
+samsung.FinalizarChamada();
+
+
